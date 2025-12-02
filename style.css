@@ -1,0 +1,45 @@
+/*
+1.Universal selector 
+*{
+    border :1px solid red;
+}
+*/
+*/Tag selector*/
+h1
+{
+    background-color:green
+}
+*/id selector*/
+#a
+{
+    color:red;
+    background-color: yellow;
+}
+*/class selector*/
+.b
+{
+    color:blue;
+    border :10px solid;
+}
+*/Group selector*/
+h1,h2
+{
+    color :indianred
+}
+/*descendant selector*/ 
+div p{
+    color : antiquewhite;
+    background-color: black;
+}
+*/child selector*/
+div > p{
+    color : blue;
+    background-color: grey;
+}
+/*attribute selector*/
+button[type="submit"]
+{
+    background-color: orange;
+    color : white;
+    font-size: 32px;
+}
